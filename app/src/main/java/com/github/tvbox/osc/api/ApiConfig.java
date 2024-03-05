@@ -127,7 +127,7 @@ public class ApiConfig {
     }
 
     public void loadConfig(boolean useCache, LoadConfigCallback callback, Activity activity) {
-        String apiUrl = Hawk.get(HawkConfig.API_URL, "http://mtw.so/5NDD3q");
+        String apiUrl = Hawk.get(HawkConfig.API_URL, "clan://localhost/tvboxTW/蜘蛛/c仓库接口.txt");
         if (apiUrl.isEmpty()) {
             callback.error("-1");
             return;
